@@ -1,0 +1,93 @@
+ body{
+	font-family: 'Verdana', sans-serif;
+}
+
+
+header .row{
+	display: flex;
+	align-items: center;
+}
+header nav{
+	display: flex;
+	justify-content: flex-end;
+}
+.pill-white,.pill-black{
+	border: 0.5px solid;
+	border-radius: 5px;
+	text-align: center;
+}
+.pill-black{
+	background-color: black;
+	color: #FFFFFF;
+}
+.col-sm-4 p{
+	padding: 1px 10px;
+	margin: 25px 20px 20px;
+	min-width: 60px;
+}
+div > h1{
+	font-size: 2rem;
+}
+nav > p{
+	cursor: pointer;
+}
+
+
+.jumbotron{
+	background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/buildawebsite.jpg');
+	background-size: cover;
+	height: 400px;
+	align-items: center;
+	display: flex;
+}
+.jumbotron h2{
+	display: inline-block;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding: 10px 35px;
+	color: orange;
+	font-weight: 700;
+}
+.jumbotron h3{
+	color: #FFFFFF;
+	font-weight: 700;
+}
+
+
+section.container .row{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+figure img{
+	height: 225px;
+	width: 360px;
+}
+figure{
+	margin-bottom: 30px;
+}
+
+
+.btn-primary{
+	background-color: #FFFFFF;
+	color: green;
+}
+
+
+footer{
+	margin-top: 30px;
+}
+footer div{
+	display: flex;
+	align-items: center;
+}
+ul{
+	list-style: none;
+	justify-content: flex-end;
+	display: flex;
+}
+ul img{
+    min-width: 32px;
+    min-height: 33px;
+}
